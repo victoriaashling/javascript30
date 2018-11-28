@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: burlywood;
+}
+
+.container {
+  text-align: center;
+  min-width: 25%;
+  margin: calc(50vh - 5em) auto;
+}
+
+.key {
+  border: 2px black solid;
+  background-color: rgba(0, 0, 0, 60%);
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  padding: 1rem;
+  margin: 0 .3em;
+}
+
+.active {
+  border-color: yellow;
+  transform: scale(1.1);
+}
+
+.sounds {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .6em;
+  letter-spacing: .1em;
+  color: yellow;
+  display: block;
+}
+
+kbd {
+  color: white;
+  font-size: 3em;
+}
