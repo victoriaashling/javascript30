@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Variables with JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h2>Update CSS Variables with <span class="main-color">JS</span></h2>
+  </header>
+  <div>
+    <div id="controls">
+      <label for="ctr-spacing">Spacing:</label>
+      <input type="range" id="ctr-spacing" name="spacing" min="10" max="100" value="10" data-suffix="px">
+
+      <label for="ctr-blur">Blur:</label>
+      <input type="range" id="ctr-blur" name="blur" min="0" max="10" value="5" data-suffix="px">
+
+      <label for="ctr-color">Color:</label>
+      <input type="color" id="ctr-color" name="main-color" value="#822f80">
+    </div>
+
+    <img src="images/Millay.jpg" id="millay-img" />
+  </div>
+  
+  <script src="javascript.js"></script>
+</body>
+</html>

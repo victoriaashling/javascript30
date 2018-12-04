@@ -1,0 +1,24 @@
+:root {
+  --main-color: #822f80;
+  --spacing: 10px;
+  --blur: 5px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+#millay-img {
+  height: 500px;
+  width: auto;
+  margin-top: 1em;
+  padding: var(--spacing);
+  background: var(--main-color);
+  filter: blur(var(--blur));
+}
+
+.main-color {
+  color: var(--main-color);
+}
