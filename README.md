@@ -1,2 +1,3 @@
 # javascript30
-A place to store my solutions for Javascript30, a course by Wes Bos.
+
+My solutions to the Javascript30 challenge, a course by Wes Bos.
