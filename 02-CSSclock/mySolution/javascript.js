@@ -12,3 +12,5 @@ function updateTime() {
   root.style.setProperty("--minute-hand", minute + "deg");
   root.style.setProperty("--hour-hand", hour + "deg");
 }
+
+// Okay, here's the thing -- the transition between 60 and 0 is wrong. You could just turn off the transition for that one sweep, and that would be less weird but still a break, or you could get the real time once on load and then just tick the time up in the interval, which should work fine, but seems like cheating? There's probably something complicated you could do to make it work ... ? But perhaps not overcomplicating is best and we should go with option 2.
